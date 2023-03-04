@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Jaimin-K/Home</title>
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="menu.html"></script>
+  <script src="js/sound.js"></script>
+  <script src="css/sound.css"></script>
+
+  
+  
+  <style>
+    .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 34px;
+    font-size: x-small ;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: center;}
+
+    .menu-index {
+      color: rgb(240, 240, 240x) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+    .button1 {
+  	 padding: 10px 15px;
+	   background: rgb(255, 255, 255);
+	   border-radius: 10px;
+	   color: rgb(48, 48, 48);
+	   
+	   place-items: center;
+    }
+  
+   .image-cropper {
+    width: 190px;
+    height: 209px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 27%;
+    }
+   .profile-pic {
+     display: inline-flex;
+     margin: auto;
+     margin-left: 0%; 
+     height: 100%;
+     width: auto;
+    } 
+  </style>
+</head>
+
+<body>
+  <div class="menu-container">
+    <div class="menu">
+      <div class="menu-table flex-row-space-between">
+	 <div class="logo flex-row-center">
+          <a href="index.html" style="color: #212121;">Jaimin Kachhadiya</a>
+        </div>
+	
+     
+        
+        <a class="menu-button" tabindex="0" href="javascript:void(0)">
+          <img src="img/menu.png">
+        </a>
+        <div class="menu-items flex-row-center flex-item">
+          <a href="index.html" class="menu-index">Home</a>
+          <a href="aboutme.html" class="menu-items">About me</a>
+          <a href="projects-def.html" class="menu-items">Projects</a>
+          <a href="cuvt.html" class="menu-items">CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          
+          <div class="image-cropper">
+            <img src="res/res21/asset/asset/img/me.jfif" alt="avatar" class="profile-pic">
+          </div>
+          <div class="flex-item flex-column">
+            <div class="button1" onclick="playAudio('aud/name.mp3')"><h2>Jaimin Kachhadiya 🔊
+            </div></h2>
+          
+            
+            <p class="text">
+              MS Computer Engineering<br>
+              Autonomous Systems Specialization<br>
+              Virginia Tech, Blacksburg, 🇺🇸<br>
+              <div class="wrapper">
+                <div class="button">
+                   <div class="icon"> <a href="https://github.com/jaimin-k" target="_blank" rel="noopener" style="color: #000000; text-decoration: none;">
+                      <i class="fab fa-github"></i></a>
+                   </div>
+                   <span>GitHub</span> 
+                </div>
+                <div class="button">
+                   <div class="icon"> <a href="https://medium.com/@jaimin-k" target="_blank" rel="noopener" style="color: #000000; text-decoration: none;">
+                      <i class="fab fa-medium-m"></i> </a>
+                   </div>
+                   <span>Medium</span>
+                </div>
+                <div class="button">
+                  <div class="icon"><a href="https://www.youtube.com/channel/UCgmhYh6wFcSquNhSBkJZNvg" target="_blank" rel="noopener" style="color: #000000; text-decoration: none;" >
+                     <i class="fab fa-youtube"></i></a>
+                  </div>
+                  <span>YouTube</span>
+               </div>
+                <div class="button">
+                   <div class="icon">
+                    <a href="https://www.linkedin.com/in/jaimin-k-81322317a/" target="_blank" rel="noopener" style="color: #000000; text-decoration: none;">
+                      <i class="fab fa-linkedin"></i></a>
+                   </div>
+                   <span>LinkedIn</span>
+                </div>
+                <div class="button">
+                   <div class="icon">
+                    <a href="mailto:jaiminkachhadiya@vt.edu"><i class="fa fa-envelope-square" style="color: #181818; text-decoration: none;"></i></a>
+                   </div>
+                   <span>Mail</span>
+                </div>
+              </div> 
+             </div></p>
+            </p>
+          </div>
+          
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2  class="display-5">Biosketch:</h2><div class="three">
+              <h1></h1>
+            <hr>
+            <p class="text" style="text-align:justify">
+              
+              I am a graduate student in Computer Engineering at Virginia Tech with a specialization in Autonomous Systems. I am deeply fascinated by the potential of autonomous vehicles and the application of computer vision in various fields. My enthusiasm for these areas of study drives me to constantly seek out opportunities to learn and contribute to the field.
+
+              I have worked on several projects related to autonomous vehicles, computer vision, and machine learning. My technical skills include proficiency in programming languages such as Python, MATLAB, C++, HTML as well as libraries such as OpenCV, TensorFlow, Keras, PyTorch.  
+              
+            </p>
+            <p class="text" style="text-align:justify">
+
+              I have experience working on several academic and independent projects in this field, including developing a virtual self-driving car as a part of my thesis, implementing deep learning models for autonomous driving, and working on Autonomous Driver Assistance Systems leveraging the above tools.
+
+              Apart from my academic work, I have also been involved in outreach activities as a Robotics Coach for FIRST® and as a referee at the World Robot Olympiad. In addition, I had the opportunity to work as a curriculum designer for K12 students in the field of artificial intelligence, computer vision, and robotics. This experience helped me develop and bring my technical expertise to a broader audience and help students develop a foundational understanding of these cutting-edge technologies in a comprehensive and engaging way.
+            </p>
+            <p class="text" style="text-align:justify"></p>
+              If you're interested in the fields of computer vision, autonomous vehicles, and robotics, feel free to connect with me. I'm always happy to chat and discuss the latest advancements in these areas. Additionally, I enjoy sharing my knowledge with others and often write articles on Medium and create content to help those with a passion for these topics.
+            </p>
+            <p class="text" style="text-align:justify"></p>
+              I am actively seeking summer internship opportunities that align with my expertise and passion for autonomous vehicles and computer vision.
+            </p>
+            
+            
+	    
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright © 2023. Jaimin Kachhadiya. All trademarks, logos and brand names are the property of their respective owners.</p>
+  </div>
+
+</body>
+
+
+</html>

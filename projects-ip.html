@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Jaimin-k/projects</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
+  
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="menu.html"></script>
+  <style>
+    .footer {
+      position: relative;
+      bottom: 0px;
+      font-size: x-small;
+      background-color: rgb(54, 54, 54);
+      color: white;
+      text-align: center;
+}
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+  <style>
+    .jumbotron {
+        margin-top: 2em!important;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        margin-bottom: 2px;
+        margin-left: 0px
+    }
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="menu-container">
+    <div class="menu">
+      <div class="menu-table flex-row-space-between">
+        <div class="logo flex-row-center">
+          <a href="index.html" style="color: #ffffff;">Jaimin Kachhadiya</a>
+        </div>
+
+        <a class="menu-button" tabindex="0" href="javascript:void(0)">
+          <img src="img/menu.png">
+        </a>
+        <div class="menu-items flex-row-center flex-item">
+          <a href="index.html" class="menu-items">Home</a>
+          <a href="aboutme.html" class="menu-items">About me</a>
+          <a href="projects-def.html" class="menu-index">Projects</a>
+          <a href="cuvt.html" class="menu-items">CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container pt-3">
+    <ul class="nav nav-pills d-flex justify-content-between mb-3" style="flex-wrap: nowrap;">
+        <li class="nav-item">
+            <a href="projects-def.html" class="nav-link">Neural Networks-Machine Learning</a>
+        </li>
+        <li class="nav-item">
+            <a href="projects-av.html" class="nav-link">Autonomous Vehicles</a>
+        </li>
+        <li class="nav-item">
+            <a href="projects-ip.html" class="nav-link active">Computer Vision</a>
+        </li>
+        <li class="nav-item">
+            <a href="projects-elx.html" class="nav-link">Electronics</a>
+        </li>
+       
+        
+    </ul>
+    <div class="jumbotron">
+      <p> <img src="res/res21/asset/asset/img/cv.jpg" width="170" height="150" style="float:left;margin: 15px 15px 2px 0px;border: 5px solid white;"><h2 class="display-5">
+        Estimating Pedestrian Intent for Crossing Roads</h2>
+          
+          <hr style="margin-left:10.5em">
+          In Autonomous driving applications, detecting pedestrians is a crucial task that can be accomplished through computer vision techniques. However, the challenge is to detect the action of pedestrians and predict their intent. A vision-based system is developed to detect pedestrians intent through their actions and their proximity to the lanes. From these parameters, a crossing intent score can thus be calculated estimating the likelihood of pedestrians crossing the road. Based on this score, ADAS or Autonomous vehicles (AV) can make maneuvering decisions. 
+          
+           <div class="btn-links">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <a href="https://youtu.be/JXUpom04rQM" target="_blank" rel="noopener" style="color: #000000; text-decoration: none;"> 
+              <img src="img/yt.png"  alt="video" style="width:25px;height:25px;">
+             </a>&nbsp | &nbsp 
+            <a href="https://drive.google.com/file/d/1Cphqo6DshGkSEftb8OfsUBcQeMbhBcmI/preview" target="_blank" rel="noopener" style="color: #000000; text-decoration: none;"> 
+              <img src="img/slide.png"  alt="presentation" style="width:16px;height:20px;">
+             </a>&nbsp | &nbsp
+               
+              <a class="btn btn-outline-primary my-2 mr-2 btn-sm" href="https://medium.com/@jaimin-k/estimating-pedestrian-intent-for-crossing-roads-b9ed87884b89" target="_blank" rel="noopener"> Read More
+              </a>
+            </div>
+          </h2>
+        </p>    
+    </div>
+    <div class="jumbotron">
+      <p> <img src="res/res21/asset/asset/img/midas.png" width="170" height="150" style="float:left;margin: 15px 15px 2px 0px;border: 5px solid white;"><h2 class="display-5">
+        Estimating pedestrian proximity using MiDaS and YOLOv7</h2>
+          
+          <hr style="margin-left:10.5em">
+          Implementing MiDaS monocular depth estimation model to estimate the distance of pedestrians from the camera. Using the YOLOv7-pose model to detect pedestrians and their keypoints, then applying Midas depth estimation to each detected bounding box to obtain the corresponding inverse depth values and classify the proximity of pedestrians as near or far from the vehicle.
+           <div class="btn-links">
+            <a href="https://github.com/jaimin-k/Monocular-Depth-Estimation-using-MiDaS" target="_blank" rel="noopener" style=" text-decoration: none;">
+              <img src="img/Git.png"  alt="code" style="width:22px;height:22px;"> 
+           </a>|&nbsp | &nbsp
+               
+              <a class="btn btn-outline-primary my-2 mr-2 btn-sm" href="https://medium.com/@jaimin-k/estimating-pedestrian-proximity-using-midas-and-yolov7-14b5a08b8740" target="_blank" rel="noopener"> Read More
+              </a>
+            </div>
+          </h2>
+        </p>    
+    </div>
+    
+
+    <div class="jumbotron">
+      <p> <img src="res/res21/asset/asset/img/iseg.png" width="170" height="150" style="float:left;margin: 15px 15px 2px 0px;border: 5px solid white;"><h2 class="display-5">
+        Instance segmentation of objects with lane detection on road</h2>
+          
+          <hr style="margin-left:10.5em">
+          Detecting vehicles and different object surrounding the car, identifying the particular class it belongs to using the pixellib library and pre trained COCO weights[mask_rcnn]. Along with instance segmentation, also detecting and marking the lane boundries of the road
+          <div class="btn-links">
+            <a href="https://github.com/jaimin-k/Instance-segmentation-with-lane-detection-on-road" target="_blank" rel="noopener" style=" text-decoration: none;">
+               <img src="img/Git.png"  alt="code" style="width:22px;height:22px;"> 
+            </a>|
+            <a class="btn btn-outline-primary my-2 mr-2 btn-sm" href="https://medium.com/@jaimin-k/instance-segmentation-of-objects-with-lane-detection-on-road-dcc9f5514de0" target="_blank" rel="noopener"> Read More
+             </a>
+          </div>
+    </div>
+    
+    <div class="jumbotron">
+      <p> <img src="res/res21/asset/asset/img/lane.gif" width="170" height="150" style="float:left;margin: 15px 15px 2px 0px;border: 5px solid white;"><h2 class="display-5">
+        Detecting lanes on road</h2>
+          
+          <hr style="margin-left:10.5em">
+          Developing a pipeline to detect lane markings on road from an image and fine tuning the parameters to extrapolate the detected lane markings for improving the lane detections on the road in a video stream recorded by a vehicle which can also be implemented in real-time by mounting the camera on a vehicle.
+          <div class="btn-links">
+           <a href="https://github.com/jaimin-k/Lane-Detection-using-Computer-Vision" target="_blank" rel="noopener" style=" text-decoration: none;">
+           <img src="img/Git.png"  alt="code" style="width:22px;height:22px;">
+           </a> 
+            | 
+            <a href="https://youtu.be/WMA2k2sy5p4" target="_blank" rel="noopener" style=" text-decoration: none;">
+            <img src="img/yt.png"  alt="video" style="width:25px;height:25px;">
+              </a>|
+              <a class="btn btn-outline-primary my-2 mr-2 btn-sm" href="https://medium.com/@jaimin-k/detecting-lanes-on-road-46700c32ebe5" target="_blank" rel="noopener"> Read More</a>
+            </div>
+          </h2>
+        </p>    
+    </div> 
+    <div class="jumbotron">
+      <p> <img src="res/res21/asset/asset/img/nplate.png" width="170" height="120" style="float:left;margin: 15px 15px 2px 0px;border: 5px solid white;"><h2 class="display-5">
+        Number plate recognition using OpenCV</h2>
+          
+          <hr style="margin-left:10.5em">
+          Detect number plates of vehicles in real-time and extract the image using OpenCV. The algorithm used is Haar Cascade, a classifier which is used to detect the object[number plates] for which it has been trained.
+          <div class="btn-links">
+            <br><a href="https://github.com/jaimin-k/Detecting-number-plates-in-real-time" target="_blank" rel="noopener" style=" text-decoration: none;">
+           <img src="img/Git.png"  alt="code" style="width:22px;height:22px;">
+           </a> 
+            </div>
+          </h2>
+        </p>    
+    </div>
+        
+                
+</div>
+  <div class="footer">
+          Copyright © 2023. Jaimin Kachhadiya. All trademarks, logos and brand names are the property of their respective owners.
+   </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
